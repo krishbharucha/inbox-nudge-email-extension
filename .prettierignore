@@ -1,0 +1,9 @@
+node_modules
+dist
+.venv
+package-lock.json
+*.py
+*.db
+playwright-report
+test-results
+artifacts/security

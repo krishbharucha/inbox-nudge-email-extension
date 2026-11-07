@@ -1,0 +1,46 @@
+{
+  "checked_at_utc": "2026-11-07T02:34:23.606186+00:00",
+  "node_version": "v24.3.0",
+  "source_extension_version": "0.2.2",
+  "npm_before": {
+    "info": 0,
+    "low": 0,
+    "moderate": 8,
+    "high": 0,
+    "critical": 2,
+    "total": 10
+  },
+  "npm_after": {
+    "info": 0,
+    "low": 0,
+    "moderate": 0,
+    "high": 0,
+    "critical": 0,
+    "total": 0
+  },
+  "python": {
+    "dependencies_scanned": 56,
+    "vulnerability_entries": 0
+  },
+  "bandit": {
+    "findings": 6,
+    "high": 0,
+    "medium": 0,
+    "low": 6,
+    "manual_disposition": "B105: standard bearer keywords, OAuth token endpoint URL, and comparisons that reject the public demo signing secret; not embedded live credentials."
+  },
+  "lockfile_sha256": {
+    "package-lock.json": "4851ecb87b2ca48cd88e77f0cff38b4f7ccf77b579d23e5735b0142e86515414",
+    "backend/requirements.lock": "d6b45c33a1f910505ef2b2938df4931e29dc3ac12e935940bba759ca1b53dfe3"
+  },
+  "tests": {
+    "backend": 149,
+    "javascript": 30,
+    "browser": 8,
+    "external_delivery": "mocked; no real email or desktop notification sent"
+  },
+  "release_gate": "Refuses current local configuration because no public production API origin or Store item ID has been provided.",
+  "local_zip_sha256": "1be4519e4686f26b91c682470e5ac58eb85978edfa298f49707827c71f8ec631",
+  "container_scan": "Not run: Docker daemon unavailable; Dockerfile/context inspected statically.",
+  "local_server": "Backed up/migrated to 0005 and restarted; health/account check passed; request limits enabled."
+}

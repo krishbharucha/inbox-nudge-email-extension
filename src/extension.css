@@ -1,0 +1,309 @@
+.extension-app {
+  max-width: 480px;
+  margin: 64px auto;
+  padding: 32px;
+  border: 1px solid #e3e9db;
+  border-radius: 18px;
+  background: #fff;
+  box-shadow: 0 20px 80px #24412c08;
+  color: #254435;
+}
+.popup {
+  min-width: 370px;
+}
+.popup body {
+  width: 390px;
+  min-height: 0;
+}
+.extension-app.extension-popup {
+  width: 390px;
+  max-width: 100vw;
+  margin: 0;
+  padding: 26px;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+.extension-brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 34px;
+}
+.extension-brand strong {
+  font-size: 22px;
+  letter-spacing: -1px;
+}
+.extension-brand strong span {
+  color: #85a65b;
+}
+.extension-brand-tag {
+  margin-left: auto;
+  font-size: 8px;
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  color: #7d8a74;
+}
+.extension-app h1 {
+  font:
+    39px/1.15 Georgia,
+    serif;
+  letter-spacing: -1.2px;
+  margin: 14px 0 18px;
+}
+.extension-app h1 em {
+  font-style: normal;
+  color: #76975c;
+}
+.extension-kicker {
+  font-size: 9px;
+  letter-spacing: 1.4px;
+  color: #7f8e75;
+}
+.extension-lead {
+  font-size: 13px;
+  line-height: 1.8;
+  color: #728071;
+  margin-bottom: 22px;
+}
+.extension-lead strong {
+  color: #365b3e;
+}
+.extension-primary {
+  width: 100%;
+  padding: 13px 16px;
+  border: 0;
+  border-radius: 8px;
+  color: #fff;
+  background: #1a4937;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 12px;
+}
+.extension-primary:disabled {
+  opacity: 0.5;
+  cursor: default;
+}
+.extension-primary svg:last-child {
+  margin-left: auto;
+}
+.extension-primary svg:first-child {
+  margin-right: auto;
+}
+.extension-small {
+  margin: 12px 0;
+  font-size: 10px;
+  line-height: 1.8;
+  color: #83907e;
+  overflow-wrap: anywhere;
+}
+.extension-steps {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin: 28px 0 30px;
+}
+.extension-steps span {
+  color: #4c7048;
+  font-size: 13px;
+  text-align: center;
+}
+.extension-steps small {
+  display: block;
+  font-size: 9px;
+  color: #87927c;
+  margin-top: 8px;
+}
+.extension-steps i {
+  flex: 1;
+  height: 1px;
+  background: #e5ebdb;
+  margin: 10px 13px;
+}
+.extension-privacy {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 18px 0 0;
+  color: #809075;
+}
+.extension-privacy p {
+  font-size: 10px;
+  line-height: 1.8;
+}
+.extension-footer {
+  margin-top: 25px;
+  border-top: 1px solid #edf0e7;
+  padding-top: 16px;
+  color: #8d9887;
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  font-size: 9px;
+}
+.extension-connected {
+  padding: 12px 14px;
+  background: #f3f7ec;
+  border: 1px solid #e5ecd9;
+  border-radius: 8px;
+}
+.extension-connected > span {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 10px;
+  color: #527546;
+}
+.extension-connected p {
+  font-size: 12px;
+  margin-top: 5px;
+  overflow-wrap: anywhere;
+}
+.extension-settings {
+  border-top: 1px solid #e9eee2;
+  margin-top: 20px;
+  padding-top: 15px;
+}
+.extension-settings summary {
+  display: flex;
+  justify-content: space-between;
+  cursor: pointer;
+  font-size: 11px;
+  list-style: none;
+}
+.extension-settings summary::-webkit-details-marker {
+  display: none;
+}
+.extension-settings[open] summary {
+  margin-bottom: 10px;
+}
+.extension-toggle {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 13px 0;
+  font-size: 11px;
+}
+.extension-toggle small {
+  display: block;
+  margin-top: 5px;
+  color: #86927e;
+  font-size: 9px;
+  line-height: 1.6;
+}
+.extension-toggle input {
+  accent-color: #32634c;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.extension-block {
+  padding: 12px 0;
+}
+.extension-block label {
+  font-size: 10px;
+}
+.extension-block > div {
+  display: flex;
+  gap: 6px;
+  margin-top: 8px;
+}
+.extension-block input {
+  width: 100%;
+  min-width: 0;
+  padding: 9px;
+  border: 1px solid #dfe6d6;
+  border-radius: 5px;
+  font-size: 11px;
+}
+.extension-block button,
+.extension-recent button {
+  padding: 7px 10px;
+  border: 1px solid #dfe6d6;
+  border-radius: 5px;
+  font-size: 10px;
+}
+.extension-blocked {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 8px 0;
+  font-size: 10px;
+}
+.extension-blocked span {
+  overflow-wrap: anywhere;
+  min-width: 0;
+}
+.extension-blocked button {
+  font-size: 10px;
+}
+.extension-account-actions {
+  display: flex;
+  gap: 18px;
+  margin-top: 17px;
+  font-size: 10px;
+}
+.extension-disconnect {
+  margin-top: 18px;
+  color: #9c5a46;
+  font-size: 10px;
+  text-align: left;
+}
+.extension-error {
+  background: #fbf1e9;
+  color: #986147;
+  border: 1px solid #f0dbcd;
+  border-radius: 7px;
+  margin-top: 16px;
+  padding: 12px;
+  font-size: 11px;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
+}
+.extension-notice {
+  color: #527546;
+  font-size: 11px;
+  line-height: 1.8;
+  margin-top: 14px;
+}
+.extension-retry {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 12px;
+  font-size: 10px;
+}
+.extension-loading {
+  display: grid;
+  justify-items: center;
+  padding: 50px 0;
+  gap: 14px;
+  color: #829575;
+  font-size: 12px;
+}
+.extension-recent {
+  padding: 12px 0;
+  border-bottom: 1px solid #edf0e7;
+}
+.extension-recent > span {
+  display: block;
+  font-size: 11px;
+  overflow-wrap: anywhere;
+}
+.extension-recent small {
+  display: block;
+  font-size: 9px;
+  color: #87927c;
+  margin: 5px 0;
+}
+@media (max-width: 500px) {
+  .extension-app {
+    margin: 0 auto;
+    border: 0;
+    border-radius: 0;
+    padding: 26px;
+  }
+}

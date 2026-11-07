@@ -1,0 +1,17 @@
+**/.venv
+**/__pycache__
+**/.pytest_cache
+**/.ruff_cache
+**/*.pyc
+**/*.egg-info
+**/*.db*
+**/.env*
+**/credentials*.json
+**/client_secret*.json
+**/*.pem
+**/*.key
+**/*.p12
+**/*.pfx
+**/*.log
+tests
+artifacts

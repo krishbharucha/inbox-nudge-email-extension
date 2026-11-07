@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Inbox Nudge",
+  "version": "0.2.2",
+  "minimum_chrome_version": "120",
+  "description": "A Nudge button in Gmail sent conversations. Connect once and stay in Gmail.",
+  "permissions": ["storage", "alarms", "identity", "notifications"],
+  "icons": { "128": "notification-icon.png" },
+  "options_ui": { "page": "index.html", "open_in_tab": true },
+  "host_permissions": ["http://127.0.0.1:8000/*"],
+  "action": {
+    "default_title": "Inbox Nudge",
+    "default_popup": "index.html?popup=1"
+  },
+  "background": { "service_worker": "background.js", "type": "module" },
+  "content_scripts": [
+    { "matches": ["https://mail.google.com/*"], "js": ["content.js"], "run_at": "document_idle" }
+  ],
+  "content_security_policy": {
+    "extension_pages": "script-src 'self'; object-src 'none'; base-uri 'none'"
+  }
+}
